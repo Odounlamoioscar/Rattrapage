@@ -1,0 +1,15 @@
+a)Difference entre git pull et git fetch
+La commande gi pull automatise les mises a jour mais peut entrainer de nombreux conflits si vous avez modifié beaucoup de fichier Tandisque la commmande git fetch permet de garder son repertoire de travaille au propre et a jour ainsi que de controler le moment ou l'on souhaite fusionner les données .
+
+b)Comment annuler les modifications locales non validée dans git ?
+Après  s'être assuré de l'id de révision ( la modif , qu'on veux annuler ) . On revient dans la branche master . Puis on utilise la commande git revert ou git reset suivis de l'id .
+
+c)Comment supprimer une branche distante dans git 
+Pour faire cela on utilise la syntaxe :
+git push "depot" --delete "branche"
+A noter que le depot est à remplacer par le nom du dépot et branche est a remplacer par le nom de la branch 
+
+d)Comment voir l'historique des modifications pour un fichier specifique  dans git ?
+Pour voir l'historique des modifications pour un fichier specifique on :
+Utilise la commande git log "nom_fichier"
+le nom fichier est en remplacer par le nom du fichier en question
